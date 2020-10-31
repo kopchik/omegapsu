@@ -1,0 +1,55 @@
+(ExpressProject "OPA189 Test Circuit"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\opa189.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\opa189 test circuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\opa189 test circuit-pspicefiles\schematic1\opa189 test circuit.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa189 test circuit-pspicefiles\schematic1\opa189 test circuit.sim"
+        (DisplayName "SCHEMATIC1-OPA189 Test Circuit")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\opa189.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\opa189.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (OPA189
+      (FullPartName "OPA189.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\OPA189\RELEASE_SANKALP\PSPICE\OPA189_PSPICE_AIO\OPA189.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\a0282827\Documents\Applications Work\Precision Amplifiers\^Macromodels\Models\OPA189\Release\RTM\OPA189_PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 621 -4 -23 0 241 0 245"))
+      (Tab 0)))
+  (MPSSessionName "x0272722"))
